@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    padding: 20px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.box {
+
+    background-position: center;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 25px;
+
+
+}
+
+.box:nth-child() {
+    background-image: url("https://source.unsplash.com/random/?statue");
+
+}
+
+.box:nth-child(1) {
+    background-image: url("https://source.unsplash.com/random/?kid");
+
+}
+
+.box:nth-child(2) {
+    background-image: url("https://source.unsplash.com/random/?laptop");
+
+}
+
+.box:nth-child(3) {
+    background-image: url("https://source.unsplash.com/random/?bridge");
+
+}
+
+.box:nth-child(4) {
+    background-image: url("https://source.unsplash.com/random/?coffee");
+
+}
+
+.box:nth-child(5) {
+    background-image: url("https://source.unsplash.com/random/?toy");
+
+}
+
+.box:nth-child(6) {
+    background-image: url("https://source.unsplash.com/random/?painting");
+
+}
+
+.box:nth-child(7) {
+    background-image: url("https://source.unsplash.com/random/?men");
+
+}
+
+.box:nth-child(8) {
+    background-image: url("https://source.unsplash.com/random/?dog");
+
+}
+
+.box:nth-child(9) {
+    background-image: url("https://source.unsplash.com/random/?sky");
+
+}
+
+.box:nth-child(10) {
+    background-image: url("https://source.unsplash.com/random/?bike");
+
+}
+
+.box:nth-child(11) {
+    background-image: url("https://source.unsplash.com/random/?beach");
+
+}
+
+.box:last-child {
+    background-image: url("https://source.unsplash.com/random/?party");
+
+}
+
+
+.box:hover{
+    transition: all ease-in-out 0.3s;
+    transform: scale(90%);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
